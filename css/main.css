@@ -36,3 +36,34 @@ html {
 .skip-links a:focus {
     top: 0;
 }
+
+.logo {
+    width: 5em;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+    margin: 0;
+    padding: 1em 0;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #339999;
+    color: #fff;
+}
