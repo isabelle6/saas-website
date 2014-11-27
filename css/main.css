@@ -16,6 +16,11 @@ html {
   text-size-adjust: 100%;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -64,6 +69,15 @@ html {
 .nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #339999;
+    background-color: #8E6F52;
     color: #fff;
+}
+
+.masthead {
+    background-color: #FDD962;
+    overflow: hidden;
+}
+
+.icon {
+    width: 5em;
 }
