@@ -91,6 +91,10 @@ body {
     background-color: rgba(255, 255, 255, .5);
 }
 
+.computer-pic {
+    width: 100%;
+}
+
 .icon {
     width: 5em;
 }
