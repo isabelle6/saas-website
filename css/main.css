@@ -139,6 +139,10 @@ body {
     color: #000;
 }
 
+.nav-footer {
+    text-align: center;
+}
+
 .nav-footer li {
     list-style-type: none;
 }
@@ -146,9 +150,26 @@ body {
     margin: 0;
 }
 
+.nav-footer ul {
+    padding: 0;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active,
+.nav-footer .nav-current:link,
+.nav-footer .nav-current:visited {
+    background-color: #8E6F52;
+    color: #fff;
+}
+
 @media only screen and (min-width:25em) {
     
     .nav li {
+        display: inline-block;
+    }
+    
+    .nav-footer li {
         display: inline-block;
     }
 
