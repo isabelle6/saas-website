@@ -16,6 +16,34 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width:90em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width:120em) {
+    
+    html {
+        font-size: 130%;
+    }
+    
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -97,4 +125,31 @@ body {
 
 .icon {
     width: 5em;
+}
+
+@media only screen and (min-width:25em) {
+    
+    .nav {
+        text-align: center;
+    }
+    
+    .nav li {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width:38em) {
+    
+    .title {
+        text-align: left;
+        float: left;
+    }
+    
+}
+
+@media only screen and (min-width:60em) {
+    
+    
+
 }
