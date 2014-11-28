@@ -78,6 +78,19 @@ body {
     overflow: hidden;
 }
 
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/billboard.jpg);
+    background-position: center;
+    width: 100%;
+    background-repeat:  no-repeat;
+    padding: 5em 0 5em 0;
+}
+
+.billboard-type {
+    background-color: rgba(255, 255, 255, .5);
+}
+
 .icon {
     width: 5em;
 }
