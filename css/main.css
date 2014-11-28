@@ -89,7 +89,7 @@ body {
 }
 
 .nav li {
-    display: inline;
+    display: inline-block;
 }
 
 .nav a:hover,
@@ -105,6 +105,8 @@ body {
     background-color: #FDD962;
     overflow: hidden;
 }
+
+
 
 .billboard {
     overflow: hidden;
@@ -136,12 +138,18 @@ body {
     .nav li {
         display: inline-block;
     }
+    
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 
 }
 
 @media only screen and (min-width:38em) {
     
-    .title {
+    .logo {
         text-align: left;
         float: left;
     }
