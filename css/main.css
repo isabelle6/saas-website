@@ -47,6 +47,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: "lora", serif;
 }
 
 .skip-links {
@@ -133,6 +134,10 @@ body {
     text-align: center;
 }
 
+.headers {
+    font-family: "poiret one", sans-serif;
+}
+
 .nav-footer a {
     text-decoration: none;
     color: #000;
@@ -176,8 +181,12 @@ body {
 @media only screen and (min-width:38em) {
     
     .logo {
-        text-align: left;
-        float: left;
+        margin: 0;
+    }
+    
+    .nav a {
+        display: block;
+        margin: auto;
     }
     
     .billboard-type {
