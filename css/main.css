@@ -107,7 +107,7 @@ body {
     overflow: hidden;
     background-image: url(../images/billboard.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat:  no-repeat;
     padding: 5em 0 5em 0;
 }
@@ -123,9 +123,14 @@ body {
 }
 
 .billboard-button {
-    display: block;
-    text-align: center;
     text-decoration: none;
+    color: #000;
+    background: #FDD962;
+    border-radius: 6px;
+}
+
+.billboard-button-center {
+    text-align: center;
 }
 
 .computer-pic {
