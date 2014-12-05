@@ -81,7 +81,6 @@ body {
 .nav a {
     text-decoration: none;
     color: #000;
-    font-size: 1.25em;
 }
 
 .nav {
@@ -115,6 +114,12 @@ body {
 
 .billboard-type {
     background-color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+.headline-billboard {
+    font-family: "poiret one", sans-serif;
+    font-weight: bold;
 }
 
 .billboard-button {
@@ -188,10 +193,6 @@ body {
     .nav a {
         display: block;
         margin: auto;
-    }
-    
-    .billboard-type {
-        text-align: center;
     }
     
     .nav-footer-left {
