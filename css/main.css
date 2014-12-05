@@ -114,6 +114,13 @@ body {
     padding: 5em 0 5em 0;
 }
 
+
+.main-headlines {
+    font-family: "poiret one", sans-serif;
+    font-weight: bold;
+    color: #7B298C;
+}
+
 .billboard-type {
     margin: 0 auto;
     max-width: 800px;
@@ -122,11 +129,6 @@ body {
 .billboard-type-background {
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
-}
-
-.headline-billboard {
-    font-family: "poiret one", sans-serif;
-    font-weight: bold;
 }
 
 .billboard-button {
@@ -149,6 +151,12 @@ body {
     width: 100%;
 }
 
+.features {
+    overflow: hidden;
+    background: #FFEEC0;
+    margin: 1.5em 0;
+}
+
 .icon {
     width: 5em;
 }
@@ -159,6 +167,7 @@ body {
 
 .headers {
     font-family: "poiret one", sans-serif;
+    color: #000;
 }
 
 .nav-footer a {
