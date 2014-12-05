@@ -95,7 +95,9 @@ body {
 .nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
+    color: #fff;
     background-color: #F69137;
+    border-radius: 6px;
 }
 
 .masthead {
@@ -113,6 +115,11 @@ body {
 }
 
 .billboard-type {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.billboard-type-background {
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
 }
@@ -131,6 +138,11 @@ body {
 
 .billboard-button-center {
     text-align: center;
+}
+
+.billboard-button:hover {
+    color: #fff;
+    background: #F69137;
 }
 
 .computer-pic {
@@ -174,7 +186,9 @@ body {
 .nav-footer a:active,
 .nav-footer .nav-current:link,
 .nav-footer .nav-current:visited {
+    color: #fff;
     background-color: #F69137;
+    border-radius: 6px;
 }
 
 @media only screen and (min-width:25em) {
