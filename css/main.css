@@ -269,6 +269,23 @@ fieldset {
     margin: 0 auto;
 }
 
+.thanks-icon {
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+}
+
+.thanks-second {
+    text-align: center;
+}
+
+.thanks-logo {
+    width: 5em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width:25em) {
     
     .nav li {
