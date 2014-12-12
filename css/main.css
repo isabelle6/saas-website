@@ -107,7 +107,7 @@ body {
 
 .billboard-img {
     overflow: hidden;
-    background-image: url(../images/billboard.jpg);
+    background-image: url(../images/billboard.gif);
     background-position: center;
     background-size: cover;
     background-repeat:  no-repeat;
@@ -207,6 +207,10 @@ body {
     color: #7B298C;
     text-align: center;
     margin: 0 auto;
+}
+
+.list-style {
+    list-style-type: square;
 }
 
 @media only screen and (min-width:25em) {
