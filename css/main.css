@@ -122,7 +122,6 @@ body {
 
 .billboard-type {
     margin: 0 auto;
-    max-width: 800px;
 }
 
 .billboard-type-background {
@@ -171,7 +170,6 @@ body {
 
 .outro {
     color: #7B298C;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -205,6 +203,12 @@ body {
     border-radius: 6px;
 }
 
+.pricing-intro {
+    color: #7B298C;
+    text-align: center;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width:25em) {
     
     .nav li {
@@ -228,12 +232,24 @@ body {
         margin: auto;
     }
     
+    .billboard-type {
+    max-width: 800px;
+    }
+    
+    .outro {
+    max-width: 800px;
+    }
+    
     .nav-footer-left {
         text-align: left;
     }
     
     .nav-footer-right {
         text-align: right;
+    }
+    
+    .pricing-intro {
+        max-width: 800px;
     }
     
 }
