@@ -204,9 +204,12 @@ body {
 }
 
 .pricing-intro {
+    margin: 0 auto;
+}
+
+.pricing-intro-background {
     color: #7B298C;
     text-align: center;
-    margin: 0 auto;
     background-color: #FFEEC0;
     overflow: hidden;
 }
