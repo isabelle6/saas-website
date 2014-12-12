@@ -118,7 +118,6 @@ body {
     font-family: "poiret one", sans-serif;
     font-weight: bold;
     color: #7B298C;
-    text-align: center;
 }
 
 .billboard-type {
@@ -208,11 +207,63 @@ body {
     color: #7B298C;
     text-align: center;
     margin: 0 auto;
+    background-color: #FFEEC0;
+    overflow: hidden;
 }
 
 .list-style {
     list-style-type: none;
     padding: 0;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.field {
+    border: 1px solid #000;
+    font-size: 1.25em;
+    border-radius: 6px;
+    padding: 0.2em 0.5em;
+    width: 100%;
+}
+
+.field:focus {
+    outline: 3px solid #F69137;
+    background-color: #FFEEC0;
+}
+
+fieldset {
+    border: solid 2px #000;
+    border-radius: 6px;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.signup-button {
+    color: #000;
+    background-color: #FDD962;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-family: "lora", serif;
+}
+
+.signup-button:hover {
+    background-color: #F69137;
+}
+
+.thanks {
+    font-family: "lora", serif;
+    color: #7B298C;
+    text-align: center;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width:25em) {
@@ -255,6 +306,10 @@ body {
     }
     
     .pricing-intro {
+        max-width: 800px;
+    }
+    
+    .thanks {
         max-width: 800px;
     }
     
