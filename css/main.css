@@ -90,6 +90,10 @@ body {
     text-align: center;
 }
 
+.nav-padding {
+    padding: 0 0 1em 0;
+}
+
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
@@ -290,6 +294,10 @@ fieldset {
     
     .nav li {
         display: inline-block;
+    }
+    
+    .nav-padding {
+        padding: 0;
     }
     
     .nav-footer li {
